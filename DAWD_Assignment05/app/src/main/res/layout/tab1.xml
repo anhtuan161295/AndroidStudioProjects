@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.qq.dawd_assignment05.MainActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:labelFor="@+id/edCode"
+        android:text="@string/lblCode"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edCode"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="29dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edCode"
+        android:gravity="center_vertical"
+        android:labelFor="@+id/edTitle"
+        android:text="@string/lblTitle"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edTitle"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/edCode"
+        android:layout_below="@+id/edCode"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edTitle"
+        android:gravity="center_vertical"
+        android:labelFor="@+id/spinnerType"
+        android:text="@string/lblType"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/edTitle"
+        android:layout_below="@+id/edTitle"
+        android:entries="@array/spinnerType"
+        android:prompt="@string/promptType" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:gravity="center_vertical"
+        android:labelFor="@+id/edPrice"
+        android:text="@string/lblPrice"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView15"
+        android:gravity="center_vertical"
+        android:labelFor="@+id/spinnerAuthor"
+        android:text="@string/lblAuthor"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView16"
+        android:gravity="center_vertical"
+        android:labelFor="@+id/spinnerImg"
+        android:text="@string/lblImg"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edPrice"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/spinnerType"
+        android:layout_below="@+id/spinnerType"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinnerAuthor"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/edPrice"
+        android:layout_below="@+id/edPrice"
+        android:entries="@array/spinnerAuthor"
+        android:prompt="@string/promptAuthor" />
+
+    <Spinner
+        android:id="@+id/spinnerImg"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/spinnerAuthor"
+        android:layout_below="@+id/spinnerAuthor"
+        android:entries="@array/spinnerImg" />
+
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/btnAddBook" />
+
+</RelativeLayout>

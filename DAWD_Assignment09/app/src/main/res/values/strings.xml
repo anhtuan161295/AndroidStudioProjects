@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quản lý nhân viên</string>
+    <string name="lblLogin">Đăng nhập</string>
+    <string name="lblUsername">Tài khoản</string>
+    <string name="lblPassword">Mật khẩu</string>
+    <string name="llbId">Id</string>
+    <string name="lblName">Tên</string>
+    <string name="lblDateOfBirth">Ngày sinh</string>
+    <string name="lblEmail">Email</string>
+    <string name="btnAdd">Thêm</string>
+    <string name="btnDisplay">Xem danh sách</string>
+    <string name="btnFind">Tìm kiếm</string>
+    <string name="btnWrite">Xuất file</string>
+    <string name="btnRead">Đọc file</string>
+    <string name="btnExit">Thoát</string>
+    <string name="btnBack">Quay về trước</string>
+    <string name="lblReadFromFile">Đọc từ file</string>
+    <string name="lblEnterId">Nhập Id</string>
+    <string name="lblUpdate">Cập nhật</string>
+    <string name="lblDelete">Xóa</string>
+    <string name="lblEdit">Cập nhật thông tin</string>
+    <string name="btnSave">Lưu</string>
+</resources>

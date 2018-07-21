@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Student911121</string>
+    <string name="btnAddBook">Add Book</string>
+    <string name="btnShowBook">Show Book</string>
+    <string name="lblBookId">BookId</string>
+    <string name="lblTitle">Title</string>
+    <string name="lblPrice">Price</string>
+    <string name="btnBack">Back</string>
+</resources>

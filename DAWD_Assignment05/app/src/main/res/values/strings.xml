@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DAWD_Assignment05</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab1">Nhập sách</string>
+    <string name="tab2">Xem danh sách</string>
+    <string name="tab3">Thông tin</string>
+    <string name="lblCode">Mã sách</string>
+    <string name="lblTitle">Tên sách</string>
+    <string name="lblType">Thể loại</string>
+    <string name="lblPrice">Giá</string>
+    <string name="lblAuthor">Tác giả</string>
+    <string name="btnAddBook">Thêm sách</string>
+    <string name="lblBookInfo">Thông tin sách</string>
+    <string name="lblListBook">Tủ sách</string>
+    <string name="lblImg">Hình ảnh</string>
+
+    <string name="promptType">Chọn thể loại</string>
+    <string name="promptAuthor">Chọn tác giả</string>
+    <string name="promptImg">Chọn hình ảnh</string>
+
+    <string-array name="spinnerType">
+        <item>Trinh thám</item>
+        <item>Huyền ảo</item>
+        <item>Ngôn tình</item>
+        <item>Khoa học</item>
+    </string-array>
+
+    <string-array name="spinnerAuthor">
+        <item>Bill Gate</item>
+        <item>Obama</item>
+        <item>Hillary Clinton</item>
+        <item>Trump</item>
+    </string-array>
+
+    <string-array name="spinnerImg">
+        <item>h1.png</item>
+        <item>h2.png</item>
+        <item>h3.png</item>
+        <item>h4.png</item>
+    </string-array>
+    <string name="errCodeDuplicate">Mã sách bị trùng</string>
+    <string name="errTitleRequired">Chưa nhập tựa đề</string>
+    <string name="errCodeRequired">Chưa nhập mã sách</string>
+    <string name="errPriceRequired">Chưa nhập giá</string>
+</resources>

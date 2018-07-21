@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Book Management System</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnDisplay">Display</string>
+    <string name="lblAddNewBook">Add new book</string>
+    <string name="lblTitle">Title</string>
+    <string name="lblPrice">Price</string>
+    <string name="lblAuthor">Author</string>
+    <string name="btnAddNew">Add new</string>
+    <string name="btnBack">Back</string>
+    <string name="lblDisplayBook">List of books</string>
+    <string name="lblUpdate">Update</string>
+    <string name="lblDelete">Delete</string>
+    <string name="lblEditBook">Edit Book</string>
+    <string name="btnSave">Save</string>
+</resources>

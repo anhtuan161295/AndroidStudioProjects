@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DAWD_Session11</string>
+    <string name="lblDisplay">Hiển thị danh sách</string>
+    <string name="lblAdd">Thêm sách</string>
+    <string name="lblExit">Thoát</string>
+</resources>

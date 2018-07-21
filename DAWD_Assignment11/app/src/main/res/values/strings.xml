@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quản lý Contact</string>
+    <string name="lblSaveContact">Lưu vào danh bạ</string>
+    <string name="lblDisplay">Xem danh sách</string>
+    <string name="lblContactInfo">Thông tin liên hệ</string>
+    <string name="lblName">Tên</string>
+    <string name="lblPhone">Điện thoại</string>
+    <string name="lblAddress">Địa chỉ</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblDelete">Xóa</string>
+    <string name="lblBack">Quay về trước</string>
+
+    <string-array name="context_menu">
+        <item>Xóa</item>
+        <item>Quay về trước</item>
+    </string-array>
+</resources>

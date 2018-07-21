@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DAWD_Lab07</string>
+    <string name="lblThongTinCaNhan">Thông Tin Cá Nhân</string>
+    <string name="lblHoTen">Họ tên</string>
+    <string name="lblNgaySinh">Ngày sinh</string>
+    <string name="lblCMND">CMND</string>
+    <string name="lblBangCap">Bằng Cấp</string>
+    <string name="lblSoThich">Sở Thích</string>
+    <string name="lblThongTinKhac">Thông Tin Khác</string>
+    <string name="lblTrungCap">Trung Cấp</string>
+    <string name="lblCaoDang">Cao Đẳng</string>
+    <string name="lblDaiHoc">Đại Học</string>
+    <string name="lblDocbao">Đọc báo</string>
+    <string name="lblDocsach">Đọc sách</string>
+    <string name="lblDoccode">Đọc code</string>
+    <string name="btnGoi">Gởi</string>
+    <string name="btnLuu">Lưu</string>
+    <string name="btnDoc">Đọc</string>
+    <string name="btnBack">Back</string>
+    <string name="lblReadFromFile">Read from file:</string>
+</resources>

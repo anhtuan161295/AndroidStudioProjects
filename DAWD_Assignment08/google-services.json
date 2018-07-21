@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1000929450058",
+    "project_id": "asymmetric-moon-163507"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000929450058:android:13e61b702daa2483",
+        "android_client_info": {
+          "package_name": "com.example.qq.dawd_assignment08"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000929450058-j9rdk8jhe30gbtvphj3ueftnb6e7mpv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qq.dawd_assignment08",
+            "certificate_hash": "34d0e9a7b0e691eee8a421ad0598266e50949029"
+          }
+        },
+        {
+          "client_id": "1000929450058-e1ufb340g1bi84rmvdblp0c3mc5m02s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDddxXHyv_FgBvT6yikB2FgTVYWhNtmIuc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

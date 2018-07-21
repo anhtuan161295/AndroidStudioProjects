@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DAWD_Lab05</string>
+    <string name="lblThongTinSach">Thông tin sách</string>
+    <string name="lblMaSach">Mã sách</string>
+    <string name="lblTuaDe">Tựa đề</string>
+    <string name="lblTheLoai">Thể loại</string>
+    <string name="lblGia">Giá</string>
+    <string name="lblTacGia">Tác giả</string>
+    <string name="btnThemSach">Thêm sách</string>
+    <string name="lblDanhSachDaThem">Danh sách đã thêm</string>
+</resources>
